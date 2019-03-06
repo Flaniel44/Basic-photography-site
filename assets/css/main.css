@@ -165,6 +165,7 @@ input, select, textarea {
 		}
 	}
 
+	/* Speed of white fade in*/
 	#wrapper {
 		-moz-animation: wrapper 3s forwards;
 		-webkit-animation: wrapper 3s forwards;
@@ -184,7 +185,7 @@ input, select, textarea {
 		-moz-animation: bg 60s linear infinite;
 		-webkit-animation: bg 60s linear infinite;
 		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
+		animation: bg 6s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -195,13 +196,14 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
-		height: 100%;
+		background: #348cb2 url("images/bg.jpg") top left;
+		background-repeat: repeat-y;
+		height: 300%;
+		width: 2000px;
 		left: 0;
 		opacity: 1;
 		position: fixed;
-		top: 0;
+		bottom: 0;
 	}
 
 	@-moz-keyframes bg {
@@ -739,10 +741,10 @@ input, select, textarea {
 				}
 
 				100% {
-					-moz-transform: translate3d(-750px,0,0);
-					-webkit-transform: translate3d(-750px,0,0);
-					-ms-transform: translate3d(-750px,0,0);
-					transform: translate3d(-750px,0,0);
+					-moz-transform: translate3d(0,750px,0);
+					-webkit-transform: translate3d(0,750px,0);
+					-ms-transform: translate3d(0,750px,0);
+					transform: translate3d(0,750px,0);
 				}
 
 	}
@@ -756,10 +758,10 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(-750px,0,0);
-				-webkit-transform: translate3d(-750px,0,0);
-				-ms-transform: translate3d(-750px,0,0);
-				transform: translate3d(-750px,0,0);
+				-moz-transform: translate3d(0,750px,0);
+				-webkit-transform: translate3d(0,750px,0);
+				-ms-transform: translate3d(0,750px,0);
+				transform: translate3d(0,750px,0);
 			}
 			}
 
@@ -772,10 +774,10 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(-750px,0,0);
-				-webkit-transform: translate3d(-750px,0,0);
-				-ms-transform: translate3d(-750px,0,0);
-				transform: translate3d(-750px,0,0);
+				-moz-transform: translate3d(0,750px,0);
+				-webkit-transform: translate3d(0,750px,0);
+				-ms-transform: translate3d(0,750px,0);
+				transform: translate3d(0,750px,0);
 			}
 		}
 
@@ -788,10 +790,10 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(-750px,0,0);
-				-webkit-transform: translate3d(-750px,0,0);
-				-ms-transform: translate3d(-750px,0,0);
-				transform: translate3d(-750px,0,0);
+				-moz-transform: translate3d(0,750px,0);
+				-webkit-transform: translate3d(0,750px,0);
+				-ms-transform: translate3d(0,750px,0);
+				transform: translate3d(0,750px,0);
 			}
 		}
 
