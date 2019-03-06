@@ -198,12 +198,14 @@ input, select, textarea {
 
 		background: #348cb2 url("images/bg.jpg") top left;
 		background-repeat: repeat-y;
-		height: 300%;
-		width: 2000px;
+		background-size: 70% !important;
+		/*width:90% !important;*/ /*Size of background, not the image. */
+		height: 200%; /*How far up the pattern repeats*/ 
 		left: 0;
 		opacity: 1;
 		position: fixed;
-		bottom: 0;
+		bottom: 0%; /* where the first image starts */
+		
 	}
 
 	@-moz-keyframes bg {
@@ -741,10 +743,11 @@ input, select, textarea {
 				}
 
 				100% {
-					-moz-transform: translate3d(0,750px,0);
-					-webkit-transform: translate3d(0,750px,0);
-					-ms-transform: translate3d(0,750px,0);
-					transform: translate3d(0,750px,0);
+					/* if background-size width is 75%, then the value below is 75% of 750px*/
+					-moz-transform: translate3d(0,525px,0);
+					-webkit-transform: translate3d(0,525px,0);
+					-ms-transform: translate3d(0,525px,0);
+					transform: translate3d(0,525px,0);
 				}
 
 	}
@@ -758,10 +761,10 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(0,750px,0);
-				-webkit-transform: translate3d(0,750px,0);
-				-ms-transform: translate3d(0,750px,0);
-				transform: translate3d(0,750px,0);
+				-moz-transform: translate3d(0,525px,0);
+				-webkit-transform: translate3d(0,525px,0);
+				-ms-transform: translate3d(0,525px,0);
+				transform: translate3d(0,525px,0);
 			}
 			}
 
@@ -774,10 +777,10 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(0,750px,0);
-				-webkit-transform: translate3d(0,750px,0);
-				-ms-transform: translate3d(0,750px,0);
-				transform: translate3d(0,750px,0);
+				-moz-transform: translate3d(0,525px,0);
+				-webkit-transform: translate3d(0,525px,0);
+				-ms-transform: translate3d(0,525px,0);
+				transform: translate3d(0,525px,0);
 			}
 		}
 
@@ -790,10 +793,10 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(0,750px,0);
-				-webkit-transform: translate3d(0,750px,0);
-				-ms-transform: translate3d(0,750px,0);
-				transform: translate3d(0,750px,0);
+				-moz-transform: translate3d(0,525px,0);
+				-webkit-transform: translate3d(0,525px,0);
+				-ms-transform: translate3d(0,525px,0);
+				transform: translate3d(0,525px,0);
 			}
 		}
 
