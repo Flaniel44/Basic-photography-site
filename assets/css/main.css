@@ -119,6 +119,9 @@ input, select, textarea {
 		}
 		
 	}
+	.header-quote {
+		text-shadow: 2px 2px 4px #000000;
+	}
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important; /* !important forces this style to be used regardless of cascade. Good for testing, otherwise considered bad practice*/
 			-webkit-animation: none !important;
