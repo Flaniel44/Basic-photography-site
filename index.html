@@ -15,29 +15,33 @@
 	</head>
 	<body class="is-preload">
 		<div id="wrapper">
-			<div class="rain"></div>
-			<div id="overlay"></div>
-			<div id="main">
+				
+			<div class="bg">
+				<div id="overlay"></div>
+				<div class="rain"></div>
+				<div id="main">
+						
+					<!-- Header -->
+						<header id="header">
+							<h1 class="header-quote">"Everyone has a plan until they get punched in the face" - Mike T</h1>
+							<p>GitHub &nbsp;&bull;&nbsp; Photography</p>
+							<nav>
+								<ul>
+									<li><a href="https://github.com/Flaniel44" class="icon fa-github"><span class="label">Github</span></a></li>
+									<li><a href="../Website/photography/lens.html" class="far fa-images"><span class="label">Photography</span></a></li>
+								</ul>
+							</nav>	
+						</header>
 
-				<!-- Header -->
-					<header id="header">
-						<h1 class="header-quote">"Everyone has a plan until they get punched in the face" - Mike T</h1>
-						<p>GitHub &nbsp;&bull;&nbsp; Photography</p>
-						<nav>
-							<ul>
-								<li><a href="https://github.com/Flaniel44" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="far fa-images"><span class="label">Photography</span></a></li>
-							</ul>
-						</nav>	
-					</header>
+					<!-- Footer -->
+						<footer id="footer">
+							<span class="copyright">Built with help from: <a href="http://html5up.net">HTML5 UP</a>.</span>
+						</footer>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
-
+				</div>
 			</div>
 		</div>
+		
 		<script>
 			window.onload = function() { document.body.classList.remove('is-preload'); } //Removes preload class after page has loaded
 			window.ontouchmove = function() { return false; } // The touchmove event occurs when the user moves the finger across the screen.
