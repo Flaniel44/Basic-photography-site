@@ -613,6 +613,16 @@ input, select, textarea {
 
 	@media screen and (max-width: 1280px) {
 
+		/* BG */
+		@keyframes rain {
+			0%{
+				background-position: 0% 0%;
+			}
+			100% {
+				background-position: 200% 180%;
+			}
+		}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -624,6 +634,16 @@ input, select, textarea {
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
+
+		/* BG */
+		@keyframes rain {
+			0%{
+				background-position: 0% 0%;
+			}
+			100% {
+				background-position: 400% 190%;
+			}
+		}
 
 		/* Basic */
 
@@ -663,9 +683,17 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		
+		/* BG */
+		@keyframes rain {
+			0%{
+				background-position: 0% 0%;
+			}
+			100% {
+				background-position: -1500% 200%;
+			}
+		}
 
-	/* Header */
+		/* Header */
 
 		#header nav {
 			padding: 0 1em;
