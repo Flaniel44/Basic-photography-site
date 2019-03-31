@@ -21,6 +21,7 @@ tfoot, thead, tr, th, td, footer, header, menu, nav {
 	font: inherit;
 	vertical-align: baseline;}
 
+
 footer, header, menu, nav, section {
 	display: block;} /* adds line breaks inbetween elements*/
 
@@ -140,6 +141,10 @@ input, select, textarea {
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
 		line-height: 1.75em;
+	}
+
+	.header-quote {
+		font-size: 250% !important;
 	}
 
 	a {
